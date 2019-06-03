@@ -2,42 +2,128 @@
 	<html>
     
     <nav>
-      <div class="nav-left">
-        <div class="heart"><a class="heart-link" href="#">&#10084;</a></div>
-        <div class="text">Neophobe Plebeian Mumpsimus</div>
+        <div id="nav-left">
+          <p><a class="heart-link" href="#">&#10084;</a>Neophobe Plebeian Mumpsimus</p>
+        </div>
+
+        <div id="nav-right">
+          <ul class="top-links">
+            <li><a href="#">NPM Enterprises</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">documentation</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <head>
+
+        <meta charset="utf-8">
+        <meta rel="shortcut icon" href="favicon.icon" type="image/x-icon">
+        <title>NPM Website</title>
+        <link rel="stylesheet" href="style.css">
+
+        <div class="section-container" id="header-npm">
+          <div id="search-bar-container">
+            <img id="npm-logo" src="https://www.dropbox.com/s/gnhreh888rqkbas/npm-logo.png?raw=1" alt="npm-logo">
+            <input type="text" id="header-search-bar" placeholder="find packages">
+            <button id="header-search-btn">&#128269;</button>
+            <p>
+              <a class="header-link" id="sign-right" href="#">sign up</a> or <a href="#" class="header-link" id="login-right">login</a>
+            </p>
+            <img id="bear-logo" src="https://www.dropbox.com/s/lmbfq5fm5yfrkwn/bear-logo.png?raw=1" alt="bear-logo">
+            <div class="float-clear"></div>
+          </div>
+        <div id="header-text">
+          <h1>Build amazing things</h1>
+          <p>npm is the package manager for JavaScript and the world's largest software registry. 
+             Discover packages of reusable code &#8210; and assemble them in powerful new ways.</p>
+          <button class="button" id="header-sign-btn">Sign up for npm</button>
+        </div>
       </div>
-      
-      <div class="nav-right">
-        <ul class="top-links">
-          <li><a href="#">NPM Enterprises</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">documentation</a></li>
-          <li><a href="#">Support</a></li>
-        </ul>
-      </div>
-    </nav>
-      
-		<head>
-      <meta charset="utf-8">
-      <meta rel="shortcut icon" href="favicon.icon" type="image/x-icon">
-			<title>NPM Website</title>
-			<link rel="stylesheet" href="style.css">
-      <img src="">
-      <h1><strong>Build amazing things</strong></h1> <!-- Title of Website -->
-        
+
 		</head>
 
 		<body>
+      
       <!-- Section 1 -->
-			<section>
+			<section id="collaboration-npm">
+        <div class="section-container">
+          <img id="collaboration-image" src="https://www.dropbox.com/s/ords2tq77z2e34z/collaboration.svg?raw=1" alt="collaboration-image">
+          
+          <div id="collaboration-text">
+            <h2>npm Orgs is powerful collaboration &#8210; for free</h2>
+            <ul id="collaboration-list">
+              <li class="list-item"><span>Encourage code discovery and re-use within teams</span></li>
+              <li class="list-item"><span>Publish and control access to your own namespace</span></li>
+              <li class="list-item"><span>Manage public and private code with the same workflow</span></li>
+            </ul>
+            <button class="button" id="collaboration-sign-btn">Sign up for Orgs</button>
+            <p>or, <a href="#" id="collaboration-learn-more">Learn more about Orgs</a></p>
+          </div>
+          <div class="float-clear"></div>
+        </div>
       </section>
+          
       <!-- Section 2 -->
-      <section>
+      <section id="install-npm">
+        <div class="section-container">
+          <div id="install-npm-text">
+            <h2>What is npm?</h2>
+            <p>
+              Use npm to install, share, and distribute code;
+              manage dependencies in your projects;
+              and share & receive feedback with others.
+            </p>
+            <button class="button" id="install-npm-btn">Install npm</button>
+          </div>
+        </div>
       </section>
+          
       <!-- Section 3 -->
-      <section>
+      <section id="features-npm">
+        <div class="section-container">
+
+          <!-- Heading -->
+          <div id="features-npm-text">
+            <h2>What can you make with 750,000 building blocks?</h2>
+            <p>The npm registry hosts almost half a million of free, reusabe code - 
+               the largest software registry in the world.</p>
+          </div>
+
+          <!-- Article 1 -->
+          <div id="features-npm-art">
+            <article class="col col-Left">
+              <img src="https://www.dropbox.com/s/rtj2pigfdpk4rxw/binoculars.svg?raw=1" alt="binoculars-icon">
+              <h3>Find</h3>
+              <p>Libraries like 
+                <a href="#">jQuery</a>, <a href="#">Bootstrap</a>, <a href="#">React</a>, 
+                and <a href="#">Angular</a> and components from frameworks such as <a href="#">Ember</a>
+              </p>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="col col-middle">
+              <img src="https://www.dropbox.com/s/tn0q57b7rmli33a/mountain-flag.svg?raw=1" alt="mountain-icon">
+              <h3>Discover</h3>
+              <p>Packages for mobile, IoT, front end, back end, robotics... 
+                everything you need to start building amazing things.</p>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="col col-right">
+              <img src="https://www.dropbox.com/s/75hcdk70kkeufu8/backpack.svg?raw=1" alt="backpack-icon">
+              <h3>Build</h3>
+              <p>Assemble packages like building blocks to quickly develop
+                 awesome new projects.
+            </article>
+
+          </div>
+          <div class="float-clear"></div> 
+        </div>
       </section>
+
 	  </body>
 
-<html>
+</html>
