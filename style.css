@@ -41,7 +41,6 @@ body {
 
 .section-container {
   width: 100%;
-  border: 1px solid black;
   padding: 5px;
   background-color: rgb(32, 101, 136);
 }
