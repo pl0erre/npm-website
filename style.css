@@ -9,9 +9,6 @@
 
 /*basic font styles*/
 
-h1, h2, h3 {
-}
-
 h1{
   font-family: Open sans;
   font-weight: 700;
@@ -86,7 +83,6 @@ nav a {
 }
 
 .top-links {
-  display: inline-block;
   float: right;
   padding: 0;
   margin: 0 20px 0 0;
@@ -107,7 +103,7 @@ nav a {
 
 #search-bar-container {
   height: 54px;
-  length: 100%;
+  width: 100%;
   margin: 0px 
 }
 
